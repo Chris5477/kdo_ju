@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anniversaire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Pour mon poulet</h1>
+  </header>
+  <main>
+
+    <h2>Cadeau bonus</h2>
+    <p>Tu dois trouver une expression, avec les réponses de questions ci-dessous.</p>
+    <button id="btn">Commencer</button>
+
+    <div id="a" class="hide">
+      <h3>Énigme 1</h3>
+      <p>J’ai plusieurs apparences, mais on m’appelle toujours de la même manière.</p>
+    </div>
+    <div id="b" class="hide">
+      <h3>Énigme 2</h3>
+      <p>Souvent, je peux être sur le bout de la langue.</p>
+    </div>
+    <div id="c" class="hide">
+      <h3>Énigme 3</h3>
+      <p>D’un simple mouvement de mains, ma taille change.</p>
+    </div>
+    <div id="d" class="hide">
+      <h3>Énigme 4</h3>
+      <p>On me caractérise souvent par des escalopes.</p>
+    </div>
+    <div id="e" class="hide">
+      <h3>Énigme 5</h3>
+      <p>Pou-pou pidou.</p>
+    </div>
+
+    <div id="f" class="hide">
+      <input id="field" type="text" placeholder="ton expression, mon poulet ?" value="" />
+      <button id="valid">Valider</button>
+    </div>
+    <p class="error hide" id="error">Et non mon poulet , réessaye !</p>
+
+    <div>
+      <video class="hide" id="video" controls width="250">
+        <source src="/welldone.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+
+</html>
